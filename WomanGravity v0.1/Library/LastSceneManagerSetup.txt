@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/marcus/level M.unity
+- path: Assets/Lak/Scenalak.unity
   isLoaded: 1
   isActive: 1

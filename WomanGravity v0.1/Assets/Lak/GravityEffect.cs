@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GravityEffect : MonoBehaviour
-{
-
-    private Rigidbody2D rb;
+{     
+    private Rigidbody rb;
     private Move player;
 
-    private bool top;
+    private bool gravedad = true;
     // Use this for initialization
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody>();
         player = GetComponent<Move>();
     }
 
@@ -20,23 +19,21 @@ public class GravityEffect : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.I))
-        {
-            rb.gravityScale *= -1;
-            Rotation();
+        {          
+            if (gravedad == true)
+            {
+                Physics.gravity = new Vector3(0, 9.81f * 25, 0);
+                //rb.transform.Rotate(Vector3.up * Time.deltaTime * 50f);
+          
+            }
+            else
+            {             
+                Physics.gravity = new Vector3(0, -9.81f * 25, 0);             
+
+            }
+            gravedad = !gravedad;
         }
+     
     }
 
-    void Rotation()
-    {
-        if (top == false)
-        {
-            transform.eulerAngles = new Vector3(0, 0, 180f);
-        }
-        else
-        {
-            transform.eulerAngles = Vector3.zero;
-        }
-        //player.movimiento = !player.movingLeft;
-        top = !top;
-    }
 }
