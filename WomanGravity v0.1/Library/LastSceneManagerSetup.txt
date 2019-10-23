@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Lukas/Scenes/Scene1.unity
+- path: Assets/Bernat/Menu.unity
   isLoaded: 1
   isActive: 1

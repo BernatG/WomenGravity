@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Bernat/Menu.unity
+    guid: dd74d8d539d454e4794c6004b4e79106
+  - enabled: 1
+    path: Assets/Lak/Scenalak.unity
+    guid: 863b8bd08fbd87b4b81037f6008c1939
   m_configObjects: {}
