@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Bernat/Menu.unity
+- path: Assets/marcus/level M.unity
   isLoaded: 1
   isActive: 1
