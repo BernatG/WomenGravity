@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 465d57233d26763438455dfdd62c47f3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box048
+    100002: Head
+    100004: Hips
+    100006: LeftArm
+    100008: LeftFoot
+    100010: LeftForeArm
+    100012: LeftHand
+    100014: LeftLeg
+    100016: LeftShoulder
+    100018: LeftToeBase
+    100020: LeftUpLeg
+    100022: Neck
+    100024: QuickRigCharacter_Guides
+    100026: QuickRigCharacter_Head
+    100028: QuickRigCharacter_Hips
+    100030: QuickRigCharacter_LeftArm
+    100032: QuickRigCharacter_LeftForeArm
+    100034: QuickRigCharacter_LeftHand
+    100036: QuickRigCharacter_LeftLeg
+    100038: QuickRigCharacter_LeftShoulder
+    100040: QuickRigCharacter_LeftUpLeg
+    100042: QuickRigCharacter_Neck
+    100044: QuickRigCharacter_Reference
+    100046: QuickRigCharacter_RightArm
+    100048: QuickRigCharacter_RightForeArm
+    100050: QuickRigCharacter_RightHand
+    100052: QuickRigCharacter_RightLeg
+    100054: QuickRigCharacter_RightShoulder
+    100056: QuickRigCharacter_RightUpLeg
+    100058: QuickRigCharacter_Spine
+    100060: QuickRigCharacter_Spine1
+    100062: QuickRigCharacter_Spine2
+    100064: Reference
+    100066: RightArm
+    100068: RightFoot
+    100070: RightForeArm
+    100072: RightHand
+    100074: RightLeg
+    100076: RightShoulder
+    100078: RightToeBase
+    100080: RightUpLeg
+    100082: Spine
+    100084: Spine1
+    100086: Spine2
+    100088: //RootNode
+    400000: Box048
+    400002: Head
+    400004: Hips
+    400006: LeftArm
+    400008: LeftFoot
+    400010: LeftForeArm
+    400012: LeftHand
+    400014: LeftLeg
+    400016: LeftShoulder
+    400018: LeftToeBase
+    400020: LeftUpLeg
+    400022: Neck
+    400024: QuickRigCharacter_Guides
+    400026: QuickRigCharacter_Head
+    400028: QuickRigCharacter_Hips
+    400030: QuickRigCharacter_LeftArm
+    400032: QuickRigCharacter_LeftForeArm
+    400034: QuickRigCharacter_LeftHand
+    400036: QuickRigCharacter_LeftLeg
+    400038: QuickRigCharacter_LeftShoulder
+    400040: QuickRigCharacter_LeftUpLeg
+    400042: QuickRigCharacter_Neck
+    400044: QuickRigCharacter_Reference
+    400046: QuickRigCharacter_RightArm
+    400048: QuickRigCharacter_RightForeArm
+    400050: QuickRigCharacter_RightHand
+    400052: QuickRigCharacter_RightLeg
+    400054: QuickRigCharacter_RightShoulder
+    400056: QuickRigCharacter_RightUpLeg
+    400058: QuickRigCharacter_Spine
+    400060: QuickRigCharacter_Spine1
+    400062: QuickRigCharacter_Spine2
+    400064: Reference
+    400066: RightArm
+    400068: RightFoot
+    400070: RightForeArm
+    400072: RightHand
+    400074: RightLeg
+    400076: RightShoulder
+    400078: RightToeBase
+    400080: RightUpLeg
+    400082: Spine
+    400084: Spine1
+    400086: Spine2
+    400088: //RootNode
+    2100000: 07 - Default
+    2100002: 03 - Default
+    2100004: baseHeadMesh_initialShadingGroup
+    2100006: 02 - Default
+    2100008: 15 - Default
+    2100010: 08 - Default
+    2100012: 09 - Default
+    2100014: 14 - Default
+    4300000: Box048
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Box048
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

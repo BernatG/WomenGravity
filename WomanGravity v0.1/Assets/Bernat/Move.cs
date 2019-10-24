@@ -8,17 +8,20 @@ public class Move : MonoBehaviour
     public Rigidbody rb;
     //public float speed;
     public float speed = 2f;
+    public Animator anim;
 
 
 
     // Use this for initialization
     void Start()
     {
+        
         rb = gameObject.GetComponent<Rigidbody>();
     }
 
     private void Update()
     {
+        anim.Play("Take001");
         rb.velocity = new Vector3 (speed, 0 ,0);
     }
 
