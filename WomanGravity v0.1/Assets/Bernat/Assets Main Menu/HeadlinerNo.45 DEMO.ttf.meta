@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 044ec7a452ee56443a157833168f758b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Headliner No. 45
+  fontNames:
+  - Headliner No. 45
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0e47a09c0dd49fe419ef61f21a30fe0b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

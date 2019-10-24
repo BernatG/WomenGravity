@@ -21,7 +21,7 @@ public class Move : MonoBehaviour
 
     private void Update()
     {
-        anim.Play("Take001");
+        anim.Play("Take 001");
         rb.velocity = new Vector3 (speed, 0 ,0);
     }
 
