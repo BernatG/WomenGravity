@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Lak/Scenalak.unity
+- path: Assets/Bernat/Menu.unity
   isLoaded: 1
   isActive: 1
