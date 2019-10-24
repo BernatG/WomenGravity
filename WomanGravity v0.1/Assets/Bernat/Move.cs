@@ -8,6 +8,7 @@ public class Move : MonoBehaviour
     public Rigidbody rb;
     //public float speed;
     public float speed = 2f;
+    public GameObject canvasDead;
     //public Animator anim;
 
 
@@ -15,7 +16,7 @@ public class Move : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        
+        canvasDead.gameObject.SetActive(false);
         rb = gameObject.GetComponent<Rigidbody>();
     }
 
@@ -31,6 +32,17 @@ public class Move : MonoBehaviour
     void FixedUpdate()
     {
      
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "vehicle")
+        {
+            Debug.Log("Collision");
+            canvasDead.gameObject.SetActive(true);
+        }
+
+
     }
 
 }

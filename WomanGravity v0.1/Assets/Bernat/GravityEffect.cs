@@ -16,6 +16,9 @@ public class GravityEffect : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         player = GetComponent<Move>();
+        gravedad = true;
+        rb.transform.eulerAngles = new Vector3(0f, -90f, 0);
+        Physics.gravity = new Vector3(0, -9.81f * 25, 0);
         //anim = GetComponent<Animator>();
     }
 

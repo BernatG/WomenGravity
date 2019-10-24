@@ -20,5 +20,4 @@ public class MainMenu : MonoBehaviour
     {
         Application.LoadLevel(sceneName);
     }
-
 }
