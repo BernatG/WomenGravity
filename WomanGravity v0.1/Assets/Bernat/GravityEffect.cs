@@ -23,13 +23,13 @@ public class GravityEffect : MonoBehaviour
             if (gravedad == true)
             {
                 Physics.gravity = new Vector3(0, 9.81f * 25, 0);
-                //rb.transform.Rotate(Vector3.up * Time.deltaTime * 50f);
+                rb.transform.eulerAngles = new Vector3(180f, 90f, 0);
           
             }
             else
             {             
-                Physics.gravity = new Vector3(0, -9.81f * 25, 0);             
-
+                Physics.gravity = new Vector3(0, -9.81f * 25, 0);
+                rb.transform.eulerAngles = new Vector3(0f, -90f, 0);                
             }
             gravedad = !gravedad;
         }
