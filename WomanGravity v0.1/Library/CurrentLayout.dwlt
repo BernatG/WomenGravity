@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -44,10 +44,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 683, y: 498}
+  m_MinSize: {x: 681, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 113
+  controlID: 13
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,8 +93,8 @@ MonoBehaviour:
     y: 0
     width: 402
     height: 668
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -215,10 +215,10 @@ MonoBehaviour:
     y: 0
     width: 1368
     height: 947
-  m_MinSize: {x: 406, y: 498}
+  m_MinSize: {x: 404, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 114
+  controlID: 14
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -240,10 +240,10 @@ MonoBehaviour:
     y: 0
     width: 1368
     height: 668
-  m_MinSize: {x: 406, y: 224}
-  m_MaxSize: {x: 8006, y: 4024}
+  m_MinSize: {x: 404, y: 224}
+  m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
-  controlID: 115
+  controlID: 15
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -401,20 +401,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Bernat/Assets Main Menu/1x/Assets_Blanco_bien
+    - Assets/Bernat/Assets Main Menu
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Bernat/Assets Main Menu/1x/Assets_Blanco_bien
+  - Assets/Bernat/Assets Main Menu
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\WomenGravity\WomanGravity v0.1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 16f80000
-    m_LastClickedID: 63510
-    m_ExpandedIDs: 000000004434000078340000d2340000de34000056350000e2350000e83500000e36000010ee000000ca9a3b
+    m_SelectedIDs: 48290000
+    m_LastClickedID: 10568
+    m_ExpandedIDs: 00000000002800007c2800004829000054290000362a0000282b00002e2b0000342b0000802b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -442,7 +442,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004434000078340000de34000056350000e2350000e83500000e360000
+    m_ExpandedIDs: 00000000002800007c2800004829000054290000362a0000282b00002e2b0000342b0000802b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -563,21 +563,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: ecd1fefff2fdfeffe409ffffc61cffffd238fffffa42ffff9844ffff4645ffff3847ffffae6fffff54abffffb8d9ffff1eddffffdae0ffff4e500000d29500004ec20000
+      m_ExpandedIDs: 14cfffff66d5ffff14d7ffff20f2ffffd4f4ffffdcf7ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: InstagramBernat
-        m_OriginalName: InstagramBernat
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -83772
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -615,13 +615,13 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: 4226edac117303d49b60357d8878a018
   m_SceneLighting: 1
-  m_2DMode: 1
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.06526339, y: 15.027743, z: -4.013447}
+    m_Target: {x: 198.03322, y: 7.906838, z: -84.20197}
     speed: 2
-    m_Value: {x: -0.06526339, y: 15.027743, z: -4.013447}
+    m_Value: {x: 198.03322, y: 7.906838, z: -84.20197}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -641,27 +641,27 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    zGrid:
       m_Target: 1
       speed: 2
       m_Value: 1
+    zGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: 0.029848337, y: 0.91193587, z: -0.06743484, w: 0.40365177}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 0.029848337, y: 0.91193587, z: -0.06743484, w: 0.40365177}
   m_Size:
-    m_Target: 276.1106
+    m_Target: 85.764366
     speed: 2
-    m_Value: 276.1106
+    m_Value: 85.764366
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0.034805447, y: -0.011996785, z: 0.00041869213, w: 0.99932206}
+  m_LastSceneViewRotation: {x: -0.0022860784, y: -0.7211637, z: 0.69275683, w: -0.0023798407}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -769,7 +769,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1920
-    y: 646
-    width: 1529
-    height: 354
+    y: 741
+    width: 1366
+    height: 259
   m_PersistentViewDataDictionary: {fileID: 0}

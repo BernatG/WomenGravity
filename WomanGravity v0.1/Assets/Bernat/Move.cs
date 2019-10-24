@@ -8,7 +8,7 @@ public class Move : MonoBehaviour
     public Rigidbody rb;
     //public float speed;
     public float speed = 2f;
-    public Animator anim;
+    //public Animator anim;
 
 
 
@@ -21,7 +21,7 @@ public class Move : MonoBehaviour
 
     private void Update()
     {
-        anim.Play("Take 001");
+        //anim.Play("Take 001");
         rb.velocity = new Vector3 (speed, 0 ,0);
     }
 

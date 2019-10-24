@@ -7,7 +7,7 @@ public class GravityEffect : MonoBehaviour
 {     
     private Rigidbody rb;
     private Move player;
-    private Animator anim;
+    //private Animator anim;
     
 
     private bool gravedad = true;
@@ -16,13 +16,13 @@ public class GravityEffect : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         player = GetComponent<Move>();
-        anim = GetComponent<Animator>();
+        //anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        anim.Play("Take 001");
+        //anim.Play("Take 001");
         if (Input.GetKeyDown(KeyCode.I))
         {          
             if (gravedad == true)
