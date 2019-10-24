@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Bernat/Scenalak.unity
+- path: Assets/irene/irene_menu.unity
   isLoaded: 1
   isActive: 1
