@@ -18,6 +18,7 @@ public class Move : MonoBehaviour
     {
         canvasDead.gameObject.SetActive(false);
         rb = gameObject.GetComponent<Rigidbody>();
+        Time.timeScale = 1;
     }
 
     private void Update()
@@ -40,6 +41,8 @@ public class Move : MonoBehaviour
         {
             Debug.Log("Collision");
             canvasDead.gameObject.SetActive(true);
+            Time.timeScale = 0;
+
         }
 
 
