@@ -26,7 +26,7 @@ public class GravityEffect : MonoBehaviour
     void Update()
     {
         //anim.Play("Take 001");
-        if (Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.Mouse0 )|| Input.GetKeyDown(KeyCode.Space))
         {          
             if (gravedad == true)
             {
