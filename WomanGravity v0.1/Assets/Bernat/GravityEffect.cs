@@ -17,7 +17,7 @@ public class GravityEffect : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         player = GetComponent<Move>();
         gravedad = true;
-        rb.transform.eulerAngles = new Vector3(0f, -90f, 0);
+        rb.transform.eulerAngles = new Vector3(0f, 90f, 0);
         Physics.gravity = new Vector3(0, -9.81f * 25, 0);
         //anim = GetComponent<Animator>();
     }
@@ -30,13 +30,13 @@ public class GravityEffect : MonoBehaviour
         {          
             if (gravedad == true)
             {
-                Physics.gravity = new Vector3(0, 9.81f * 25, 0);
-                rb.transform.eulerAngles = new Vector3(180f, 90f, 0);
+                Physics.gravity = new Vector3(0, 9.81f * 40, 0);
+                rb.transform.eulerAngles = new Vector3(0f, 90f, 180f);
             }
             else
             {             
-                Physics.gravity = new Vector3(0, -9.81f * 25, 0);
-                rb.transform.eulerAngles = new Vector3(0f, -90f, 0);                
+                Physics.gravity = new Vector3(0, -9.81f * 40, 0);
+                rb.transform.eulerAngles = new Vector3(0f, 90f, 0);                
             }
             gravedad = !gravedad;
         }       
